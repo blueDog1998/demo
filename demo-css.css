@@ -484,6 +484,7 @@ a:hover{
 }
 .slideshow-rap ul li a{
 	color: #fff;
+	display: inline-block;
 }
 .slideshow-rap ul li a:hover{
 	color: rgb(3,3,3);
@@ -502,4 +503,60 @@ a:hover{
 	height: 500px;
 	z-index: 10;
 	background-image: url("img/tmall-2.1.jpg");
+}
+.shopping-postion{
+	margin: auto;
+	padding-top: 100px;
+	width: 1230px;
+	padding-right: 30px;
+	font-size: 12px;
+}
+.img-postion{
+	padding-left: 45px;
+}
+.img-activity{
+	margin-top: 10px;
+}
+.img-activity-text{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.img-activity-text span{
+	background-color: #000;
+	opacity: 0.1;
+	display: inline-block;
+	border-bottom: 1px solid;
+	width: 403px;
+	margin-bottom: 9px;
+}
+.img-activity-text i{
+	display: inline-block;
+	color: red;
+}
+.img-activity-tet{
+	line-height: 18px;
+	width: 252px;
+	text-overflow: ellipsis;
+	margin: 0 80px;
+	height: 18px;
+	color: red;
+	font-size: 16px;
+	display: inline-block;
+}
+.img-activity-tet div{
+	display: inline-block;
+	font-size: 18px;
+	color: #ff0036;
+	overflow: hidden;
+}
+.img-activity a{
+	float: left;
+	display: block;
+	width: 238px;
+	margin-right: 10px;
+
+}
+.img-activity img{
+
 }
