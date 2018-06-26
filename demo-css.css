@@ -494,7 +494,7 @@ a:hover{
 	display: inline-block;
 }
 .slideshow-rap ul li a:hover{
-	color: rgb(3,3,3);
+	color: #000;
 }
 .slideshow-rap ul li:hover{
 	background-color: #fff;
@@ -689,7 +689,7 @@ a:hover{
 	position: relative;
 	list-style: none;
 }
-.brand-img-1,.brand-img-2,.brand-img-3,.brand-img-4{
+.brand-img-1,.brand-img-2,.brand-img-3,.brand-img-4,.brand-img-5,.brand-img-6,.brand-img-7,.brand-img-8,.brand-img-9,.brand-img-10,.brand-img-11,.brand-img-12,.brand-img-13,.brand-img-14,.brand-img-15,.brand-img-16,.brand-img-17,.brand-img-18,.brand-img-19,.brand-img-20,.brand-img-21,.brand-img-22,.brand-img-23,.brand-img-24,.brand-img-25,.brand-img-26,.brand-img-27,.brand-img-28,.brand-img-29{
 	width: 122px;
 	height: 108px;
 	margin: 0 auto;
@@ -712,6 +712,91 @@ a:hover{
 	background-image: url("img/brand/brand-4.png");
 	background-size: 100% 70%;
 }
+.brand-img-5{
+	background-image: url("img/brand/brand-5.jpg");
+}
+.brand-img-6{
+	background-image: url("img/brand/brand-6.png");
+	background-size: 100% 70%;
+}
+.brand-img-7{
+	background-image: url("img/brand/brand-7.jpg");
+}
+.brand-img-8{
+	background-image: url("img/brand/brand-8.png");
+	background-size: 100% 70%;
+}
+.brand-img-9{
+	background-image: url("img/brand/brand-9.jpg");
+}
+.brand-img-10{
+	background-image: url("img/brand/brand-10.jpg");
+}
+.brand-img-11{
+	background-image: url("img/brand/brand-11.jpg");
+}
+.brand-img-12{
+	background-image: url("img/brand/brand-12.png");
+	background-size: 100% 70%;
+}
+.brand-img-13{
+	background-image: url("img/brand/brand-13.png");
+	background-size: 100% 70%;
+}
+.brand-img-14{
+	background-image: url("img/brand/brand-14.jpg");
+}
+.brand-img-15{
+	background-image: url("img/brand/brand-15.jpg");
+}
+.brand-img-16{
+	background-image: url("img/brand/brand-16.jpg");
+}
+.brand-img-17{
+	background-image: url("img/brand/brand-17.jpg");
+}
+.brand-img-18{
+	background-image: url("img/brand/brand-18.png");
+	background-size: 100% 70%;
+}
+.brand-img-19{
+	background-image: url("img/brand/brand-19.png");
+	background-size: 100% 70%;
+}
+.brand-img-20{
+	background-image: url("img/brand/brand-20.png");
+	background-size: 100% 70%;
+}
+.brand-img-21{
+	background-image: url("img/brand/brand-21.jpg");
+}
+.brand-img-22{
+	background-image: url("img/brand/brand-22.png");
+	background-size: 100% 70%;
+}
+.brand-img-23{
+	background-image: url("img/brand/brand-23.jpg");
+}
+.brand-img-24{
+	background-image: url("img/brand/brand-24.png");
+	background-size: 100% 70%;
+}
+.brand-img-25{
+	background-image: url("img/brand/brand-25.jpg");
+}
+.brand-img-26{
+	background-image: url("img/brand/brand-26.jpg");
+}
+.brand-img-27{
+	background-image: url("img/brand/brand-27.jpg");
+}
+.brand-img-28{
+	background-image: url("img/brand/brand-28.png");
+	background-size: 100% 70%;
+}
+.brand-img-29{
+	background-image: url("img/brand/brand-29.jpg");
+}
 .brand-img{
 	position: relative;
 	width: 100%;
@@ -727,7 +812,7 @@ a:hover{
 	opacity: 0;
 	display: block;
 	opacity: 0;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.8);
 }
 .brand-img a:hover{
 	opacity: 1
@@ -755,4 +840,41 @@ a:hover{
 	font-size: 12px;
 	background-color: #ff0036;
 	border-radius: 9px;
+}
+.brand-img-refresh a{
+	color: #999;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	display: block;
+}
+.brand-img-refresh a i{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -20px;
+    margin-top: -30px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 20px;
+}
+.brand-img-refresh a span{
+	color: #999;
+	display: block;
+    font-size: 14px;
+    line-height: 136px;
+    text-align: center;
+}
+.brand-img-refresh a span:hover,.brand-img-refresh a i:hover{
+	color: #fff;
+}
+.brand-img-refresh a:hover{
+	background-color: #ff0036;
+	color: #fff;
 }
