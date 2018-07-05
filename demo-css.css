@@ -366,6 +366,7 @@ a{
 	color: red;
 }
 .shopping{
+	background-color: #eee;
 }
 .shopping-img{
 	height: 567px;
@@ -383,6 +384,7 @@ a{
 	display: block;
 }
 .shopping-border a {
+	color: #000;
 	height: 35px;
 	float: left;
 	padding: 0 8px;
@@ -391,22 +393,25 @@ a{
 	position: relative;
 	line-height: 36px;
 }
+.shopping-border a:hover{
+	color: red;
+}
 .shopping-plain{
+	background-color: #fff;
 	height: 36px;
 	width: 100%;
 	line-height: 36px;
 	position: absolute;
 }
 .shopping-postion{
-	width: 1230px;
-	margin: 0 auto;
-	padding-right: 30px;
+	
 }
 .shopping-text{
-	margin-left: 200px;
+	float: left;
+	margin-left: 245px;
 	width: 1030px;
 	line-height: 36px;
-	display: table;
+	display: block;
 	overflow: hidden;
 }
 .sl{
@@ -508,13 +513,6 @@ a{
 	z-index: 10;
 	background-image: url("img/tmall-2.1.jpg");
 }
-.shopping-postion{
-	margin: auto;
-	padding-top: 100px;
-	width: 1230px;
-	padding-right: 30px;
-	font-size: 12px;
-}
 .img-postion{
 	padding-left: 45px;
 }
@@ -575,8 +573,10 @@ a{
 	float: left;
 	height: 370px;
 	margin-right: 13px;
+	margin-top: 20px;
 }
 .img-famous-rapid div{
+	background-color: #fff;
 	position: relative;
 	height: 54px;
 	border-style: solid;
@@ -630,6 +630,7 @@ a{
 	width: 234px;
 }
 .img-famous-gather{
+	margin-top: 20px;
 	float: left;
 	width: 485px;
 	height: 370px;
@@ -650,11 +651,17 @@ a{
 	display: block;
 	height: 316px;
 }
+.img-famous-tmall4-2 img{
+	width: 485px;
+	height: 316px
+}
 .img-famous-activity{
+	margin-top: 20px;
 	width: 485px;
 	float: left;
 }
 .img-famous-activity div{
+	background-color: #fff;
 	position: relative;
 	height: 54px;
 	border-style: solid;
@@ -694,6 +701,7 @@ a{
 	line-height: 108px;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-color: #fff;
 }
 .brand-img-1{
 	background-image: url("img/brand/brand-1.jpg");
@@ -862,6 +870,7 @@ a{
     border-radius: 20px;
 }
 .brand-img-refresh a span{
+	background-color: #fff;
 	color: #999;
 	display: block;
     font-size: 14px;
@@ -870,6 +879,9 @@ a{
 }
 .brand-img-refresh a span:hover,.brand-img-refresh a i:hover{
 	color: #fff;
+}
+.brand-img-refresh a span:hover{
+	background-color: #ff0036;
 }
 .brand-img-refresh a:hover{
 	background-color: #ff0036;
@@ -1116,6 +1128,7 @@ a{
 	border-bottom: 15px solid #f3f3f3;
 }
 .mart-a-div{
+	background-color: #fff;
 	width: 235px;
 	height: 281px;
 	padding-top: 20px;
@@ -1175,6 +1188,7 @@ a{
 	height: 301px;
 }
 .watch{
+	background-color: #fff;
 	display: block;
 	width: 235px;
 	height: 301px;
@@ -1241,4 +1255,252 @@ a{
 	margin-left: 10px;
 	line-height: 24px;
 	height: 18px;
+}
+.like{
+	height: 6850px;
+	padding-right: 30px;
+	width: 1230px;
+	margin: 30px auto 0;
+}
+.like-title{
+	color: #666;
+	text-align: center;
+	height: 43px;
+	display: block;
+}
+.like-title span{
+	position: relative;
+	font-size: 18px;
+	line-height: 20px;
+}
+.like-title span:before{
+	position: absolute;
+	left: -38px;
+	content: " ";
+	width: 30px;
+	height: 1px;
+	background-color: #979797;
+	top: 12px;
+}
+.like-title span:after{
+	right: -38px;
+	content: " ";
+	position: absolute;
+	width: 30px;
+	height: 1px;
+	background-color: #979797;
+	top: 12px;
+}
+.like-title span i{
+	color: red;
+}
+.like-img{
+	width: 100%;
+}
+.like-border{
+	background-color: #fff;
+	width: 233px;
+	height: 326px;
+	border: 1px solid #fff;
+}
+.like-border:hover{
+	opacity: 0.8;
+	border-color: red;
+}
+.like-postion{	
+	float: left;
+	margin-right: 7px;
+	margin-bottom: 14px;
+	width: 235px;
+	height: 326px;
+}
+.like-postion a{
+	float: left;
+	text-align: center;
+	display: block;
+	width: 235px;
+	height: 326px;
+}
+.like-border a img{
+	margin: 20px auto 0;
+	display: block;
+	width: 185px;
+	height: 185px;
+}
+.like-text{
+	padding: 14px 12px 8px;
+	text-align: center;
+	height: 89px;
+	width: 211px;
+}
+.like-span{
+	margin: 8px auto;
+	width: 135px;
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.like-span span{
+	font-size: 14px;
+	line-height: 18px;
+	color: #666;
+}
+.like-sell{
+	height: 33px;
+	margin-top: 2px;
+}
+.like-sell span{
+	font-size: 18px;
+	color: #ff0036;
+	line-height: 32px;
+}
+.bottom-end{
+	color: #e3e3e3;
+	text-align: center;
+	width: 1230px;
+	height: 55px;
+}
+.bottom-end img{
+	width: 80px;
+	height: 45px;
+	margin: 0 auto 10px;
+}
+.bottom{
+	border-top: 1px solid #b2b2b2;
+}
+.bottom-bar{
+	background-image: url("img/bottom-end.jpg");
+	background-repeat: no-repeat;
+	width: 1190px;
+	height: 100px;
+	margin: 10px auto;
+}
+.bottom-bar a{
+	width: 290px;
+	height: 100px;
+	display: inline-block;
+}
+.separate{
+	display: block;
+	width: 1190px;
+	height: 10px;
+	border-bottom: 1px solid #d3d3d3;
+	margin: 0 auto 20px;
+}
+.last{
+	margin: auto;
+	text-align: center;
+	padding-top: 22px;
+	height: 190px;
+	width: 1190px;
+}
+.last-text{
+	float: left;
+	width: 186px;
+	padding-left: 52px;
+}
+.last-text span{
+	display: block;
+	color: #646464;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: left;
+}
+#lastQR{
+	width: 105px;
+	height: 105px;
+	line-height: 105px;
+	text-align: center;
+	overflow: hidden;
+}
+.last-text a{
+	font-size: 14px;
+	width: 100px;
+	overflow: hidden;
+	text-align: left;
+	height: 20px;
+	line-height: 20px;
+	color: #8b8b8b;
+	display: block;
+}
+.last-img{
+	width: 186px;
+	height: 85px;
+}
+#lastQR img{
+	width: 105px;
+	height: 105px;
+}
+.last-information{
+	background-color: #000;
+	border-top: 3px solid #ee0036;
+}
+.about{
+	display: block;
+	width: 1190px;
+	padding-bottom: 5px;
+	height: 25px;
+	margin: auto;
+}
+.about a{
+	margin-right: 3px;
+	color: #fff;
+	line-height: 25px;
+	font-size: 14px;
+}
+.brand-name{
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	width: 1190px;
+	height: 25px;
+	margin: auto;
+	padding: 5px 0;
+}
+.brand-name a{
+	margin-right: 3px;
+	line-height: 25px;
+	color: #fff;
+}
+.footer{
+	font-size: 12px;
+	line-height: 20px;
+	background-color: #000;
+	color: #a4a4a4;
+	width: 1190px;
+	margin: 0 auto;
+	text-align: left;
+}
+.footer a{
+	font-size: 13px;
+	margin-right: 65px;
+	color: #a4a4a4;
+}
+.footer span{
+	margin-right: 65px;
+}
+.footer p{
+	margin: 5px 0;
+}
+#copyright{
+	display: block;
+	color: #686868;
+	font-weight: 400;
+}
+#footer-img2{
+	margin: 20px 15px 20px 0;
+	display: inline-block;
+	width: 73px;
+	height: 30px;
+}
+#footer-img3{
+	margin: 20px 0 20px 0;
+	display: inline-block;
+	width: 80px;
+	height: 30p;
+}
+#footer-img2 img,#footer-img3 img{
+	width: 100%;
+	height: 100%;
 }
