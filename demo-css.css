@@ -1504,3 +1504,136 @@ a{
 	width: 100%;
 	height: 100%;
 }
+.fixed-left{
+	z-index: 1000;
+	position: fixed;
+	bottom: 50px;
+	left: 2px;
+	width: 35px;
+	text-align: center;
+	height: 370px;
+	color: #fff;
+}
+.fixed-left ul li{
+	text-align: center;
+	list-style: none; 
+	margin-bottom: 1px;
+	width: 36px;
+	height: 36px;
+}
+.fixed-left ul li div{
+	cursor: pointer;
+	background-color: #ff0036;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+}
+.fixed-left ul li a{
+	background-color: rgba(0,0,0,0.6);
+	text-align: center;
+	color: #fff;
+	position: relative;
+	font-size: 12px;
+	overflow: hidden;
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+#dylike{
+	background-color: #ff0036;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	font-size: 12px;
+	overflow: hidden;
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.fixed-left ul li a span{
+	margin: 4px auto 4px;
+	display: block;
+	width: 24px;
+	height: 28px;
+	line-height: 14px;
+}
+.fixed-left ul li a:hover{
+	background-color: green;
+}
+#cometop{
+	display: block;
+	background-color: #ff0036;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+}
+.fixed-right{
+	z-index: 1000;
+	color: #fff;
+	position: fixed;
+	height: 100%;
+	background: #000;
+	right: 0;
+	width: 35px;
+	bottom: 0px;
+}
+.right-1{
+	margin-top: 50px;
+	width: 35px;
+	height: 35px;
+	background-image: url("img/end.png");
+	background-repeat: no-repeat;
+	background-size: 80%; 
+	background-position: center;
+}
+.right-1:hover{
+	background-color: #ee0036;
+}
+.right-2{
+	position: relative;
+	cursor: pointer;
+	margin: 10px auto;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	width: 36px;
+	height: 120px;
+}
+.right-2 div{
+	margin: auto;
+	border-top: 1px solid #363636;
+	border-bottom: 1px solid #363636;
+	width: 28px;
+	height: 100%;
+}
+.icon-cart{
+	color: #fff;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.right-2 span{
+	font-weight: bold;
+	line-height: 18px;
+	display: block;
+	margin: auto;
+	width: 18px;
+}
+.right-2:hover{
+	color:#fff; 
+	background: #ee0036;
+}
+.right-3{
+	cursor: pointer;
+	text-align: center;
+	margin: 5px 0;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	font-size: 20px;
+}
+.right-3:hover{
+	background-color: #ee0036;
+}
